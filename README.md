@@ -23,7 +23,7 @@ Clone the repository or download the code files.
 Ensure you have installed the required libraries mentioned in the "Requirements" section.
 Run the wine_classification.py script:
 Copy code
-python wine_classification.py
+python main.py
 Model Details
 
 The KNN model is used for classifying wines into one of the three classes. To achieve this, the dataset is split into training and testing sets. The model is trained using 80% of the data and then evaluated on the remaining 20% to calculate the accuracy.
